@@ -1,0 +1,22 @@
+# Dependencies
+node_modules/
+
+# Next.js build output
+frontend/.next/
+frontend/out/
+
+# Express build output
+backend/dist/
+
+# Env files — never commit real secrets
+.env
+.env.local
+.env.*.local
+backend/.env
+frontend/.env.local
+
+# Logs / OS / editor
+*.log
+.DS_Store
+.vscode/
+.idea/
